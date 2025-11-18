@@ -1,0 +1,17 @@
+/* Import the font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* If using Tailwind, ensure this file is processed by Tailwind CLI or PostCSS.
+   If not using Tailwind, remove these lines. */
+
+/* Base styles for your theme */
+body {
+  background-color: var(--color-brand-secondary);
+  color: var(--color-brand-primary);
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: var(--color-brand-primary);
+  color: var(--color-brand-secondary);
+}
