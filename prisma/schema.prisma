@@ -22,7 +22,10 @@ generator client {
 
 datasource db {
   provider = "sqlite"
-  url      = "file:./dev.db"
+  // Connection URLs are no longer supported in schema files.
+  // Move your database connection configuration to prisma.config.ts
+  // (see https://pris.ly/d/config-datasource) and pass the adapter
+  // or accelerateUrl when constructing PrismaClient.
 }
 
 // User model for Google OAuth and Email/Password Auth
